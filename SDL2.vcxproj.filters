@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dependencies\SDL\src\atomic\SDL_atomic.c">
+      <Filter>src\atomic</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\atomic\SDL_spinlock.c">
+      <Filter>src\atomic</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\audio\SDL_audio.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\audio\SDL_audiocvt.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\audio\SDL_audiodev.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\audio\SDL_audiotypecvt.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\audio\SDL_mixer.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\audio\SDL_wave.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\audio\android\SDL_androidaudio.c">
+      <Filter>src\audio\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\audio\dummy\SDL_dummyaudio.c">
+      <Filter>src\audio\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\SDL.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\SDL_assert.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\SDL_dataqueue.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\SDL_error.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\SDL_hints.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\SDL_log.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\core\android\SDL_android.c">
+      <Filter>src\core\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\cpuinfo\SDL_cpuinfo.c">
+      <Filter>src\cpuinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\dynapi\SDL_dynapi.c">
+      <Filter>src\dynapi</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\events\SDL_windowevents.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\events\SDL_clipboardevents.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\events\SDL_displayevents.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\events\SDL_dropevents.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\events\SDL_events.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\events\SDL_gesture.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\events\SDL_keyboard.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\events\SDL_mouse.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\events\SDL_quit.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\events\SDL_touch.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\file\SDL_rwops.c">
+      <Filter>src\file</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\filesystem\android\SDL_sysfilesystem.c">
+      <Filter>src\filesystem\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\haptic\SDL_haptic.c">
+      <Filter>src\haptic</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\haptic\android\SDL_syshaptic.c">
+      <Filter>src\haptic\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\joystick\SDL_gamecontroller.c">
+      <Filter>src\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\joystick\SDL_joystick.c">
+      <Filter>src\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\joystick\android\SDL_sysjoystick.c">
+      <Filter>src\joystick\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\joystick\hidapi\SDL_hidapi_xboxone.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\joystick\hidapi\SDL_hidapijoystick.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\joystick\hidapi\SDL_hidapi_ps4.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\joystick\hidapi\SDL_hidapi_switch.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\joystick\hidapi\SDL_hidapi_xbox360.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\loadso\dlopen\SDL_sysloadso.c">
+      <Filter>src\loadso\dlopen</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\power\SDL_power.c">
+      <Filter>src\power</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\power\android\SDL_syspower.c">
+      <Filter>src\power\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\SDL_d3dmath.c">
+      <Filter>src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\SDL_render.c">
+      <Filter>src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\SDL_yuv_sw.c">
+      <Filter>src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\direct3d\SDL_shaders_d3d.c">
+      <Filter>src\render\direct3d</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\direct3d\SDL_render_d3d.c">
+      <Filter>src\render\direct3d</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\direct3d11\SDL_render_d3d11.c">
+      <Filter>src\render\direct3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\direct3d11\SDL_shaders_d3d11.c">
+      <Filter>src\render\direct3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\opengl\SDL_shaders_gl.c">
+      <Filter>src\render\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\opengl\SDL_render_gl.c">
+      <Filter>src\render\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\opengles\SDL_render_gles.c">
+      <Filter>src\render\opengles</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\opengles2\SDL_render_gles2.c">
+      <Filter>src\render\opengles2</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\opengles2\SDL_shaders_gles2.c">
+      <Filter>src\render\opengles2</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\psp\SDL_render_psp.c">
+      <Filter>src\render\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\software\SDL_blendfillrect.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\software\SDL_blendline.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\software\SDL_blendpoint.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\software\SDL_drawline.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\software\SDL_drawpoint.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\software\SDL_render_sw.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\render\software\SDL_rotate.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\sensor\SDL_sensor.c">
+      <Filter>src\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\sensor\android\SDL_androidsensor.c">
+      <Filter>src\sensor\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\stdlib\SDL_qsort.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\stdlib\SDL_stdlib.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\stdlib\SDL_string.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\stdlib\SDL_getenv.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\stdlib\SDL_iconv.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\stdlib\SDL_malloc.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_imageBlit.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_imageBlitBlend.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_imageFace.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_imagePrimitives.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_imagePrimitivesBlend.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_log.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_md5.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_memory.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_random.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_assert.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_common.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_compare.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_crc32.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_font.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_fuzzer.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\test\SDL_test_harness.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\thread\SDL_thread.c">
+      <Filter>src\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\thread\pthread\SDL_systls.c">
+      <Filter>src\thread\pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\thread\pthread\SDL_syscond.c">
+      <Filter>src\thread\pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\thread\pthread\SDL_sysmutex.c">
+      <Filter>src\thread\pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\thread\pthread\SDL_syssem.c">
+      <Filter>src\thread\pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\thread\pthread\SDL_systhread.c">
+      <Filter>src\thread\pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\timer\SDL_timer.c">
+      <Filter>src\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\timer\unix\SDL_systimer.c">
+      <Filter>src\timer\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_video.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_vulkan_utils.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_blit.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_blit_0.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_blit_1.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_blit_A.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_blit_auto.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_blit_copy.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_blit_N.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_blit_slow.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_bmp.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_clipboard.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_egl.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_fillrect.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_pixels.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_rect.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_RLEaccel.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_shape.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_stretch.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_surface.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\android\SDL_androidclipboard.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\android\SDL_androidevents.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\android\SDL_androidgl.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\android\SDL_androidkeyboard.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\android\SDL_androidmessagebox.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\android\SDL_androidmouse.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\android\SDL_androidtouch.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\android\SDL_androidvideo.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\android\SDL_androidvulkan.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\android\SDL_androidwindow.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\yuv2rgb\yuv_rgb.c">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\SDL\src\video\SDL_yuv.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{36a61a34-bcbe-4828-986d-f475b5b1f0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio">
+      <UniqueIdentifier>{383ee81f-ebcd-476c-b5c1-63e3f2d1a9d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\atomic">
+      <UniqueIdentifier>{43495e94-e830-41a4-9a53-1f9462a46192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{6e511267-229d-4bb3-afd3-2a904d4b58ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cpuinfo">
+      <UniqueIdentifier>{7c35c025-21b4-4030-89ef-4e7729935ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dynapi">
+      <UniqueIdentifier>{0273dbde-a56e-49f7-bec6-7618d0763e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\events">
+      <UniqueIdentifier>{512df29c-bd62-4552-8c9c-fde4d9e70b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\file">
+      <UniqueIdentifier>{a0f40a19-5e5f-41a3-b543-b24a66e55db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem">
+      <UniqueIdentifier>{21630e2d-41fa-4867-896c-8c30d1a955ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\haptic">
+      <UniqueIdentifier>{57b3cf94-0406-4aed-beaa-e0cd9ed4b1dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick">
+      <UniqueIdentifier>{2a5c3905-6abf-49cd-aaa2-cd39d2d1e07d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\loadso">
+      <UniqueIdentifier>{e9a85475-3518-4202-aee5-5162b1b97e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\power">
+      <UniqueIdentifier>{d8a1d95c-31d4-4697-a864-b6ed0d2a7932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sensor">
+      <UniqueIdentifier>{f9358eec-0e0a-416f-9b37-d79ce2c3c42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render">
+      <UniqueIdentifier>{cc142c65-9b9a-4b5c-bc9a-8e1b304336a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stdlib">
+      <UniqueIdentifier>{3796c380-0c72-4c26-93d1-e03ac6570558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread">
+      <UniqueIdentifier>{1e78993f-35f4-4dcf-b378-996843e9dd96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer">
+      <UniqueIdentifier>{05278f7f-daa5-49f1-acaf-a96b6861b22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video">
+      <UniqueIdentifier>{fb9604d3-87fc-4589-bdb2-1be48c347ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test">
+      <UniqueIdentifier>{21ea511f-333c-4a9a-a0e1-9f09bc680b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\android">
+      <UniqueIdentifier>{15ed9dc3-f5d0-48fe-9fc3-6f875084db4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\dummy">
+      <UniqueIdentifier>{ddc7cfba-2af3-40e3-9768-1cf00796dd8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\android">
+      <UniqueIdentifier>{cc1b7987-8ecc-4029-aadf-8a7b2b5ad2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem\android">
+      <UniqueIdentifier>{2c2a3962-2ac5-494b-a7ac-46b5ea6bd568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\haptic\android">
+      <UniqueIdentifier>{2ea75376-984c-4d46-af68-8b65c4b5eb13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\android">
+      <UniqueIdentifier>{dffcda64-8e86-4443-b010-840edcaf25c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\hidapi">
+      <UniqueIdentifier>{5e74a724-014c-4e4a-b3b5-2405dd2ead9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\loadso\dlopen">
+      <UniqueIdentifier>{532b8089-6b06-4831-a4eb-4cf1f54b41da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\power\android">
+      <UniqueIdentifier>{b79f8e41-588f-4f13-816c-297d1a6ecc6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sensor\android">
+      <UniqueIdentifier>{c436bc1e-02fb-4717-9dc5-e01985ad3d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\direct3d">
+      <UniqueIdentifier>{adace1a9-ef62-4af0-8fc4-559980141376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\direct3d11">
+      <UniqueIdentifier>{eeda8fff-4821-41f3-a9e0-ed944a36f758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\opengl">
+      <UniqueIdentifier>{9a720cf3-f636-4fe0-9ed7-4c191148fccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\opengles">
+      <UniqueIdentifier>{25880e9a-2982-46b6-8685-30eead21fef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\opengles2">
+      <UniqueIdentifier>{2b06e7c2-b52e-42de-881f-3a0581269e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\psp">
+      <UniqueIdentifier>{30c43959-1095-45d6-b395-725d6f7b18c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\software">
+      <UniqueIdentifier>{683d8246-d71e-4508-ad2d-7c442dc59b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread\pthread">
+      <UniqueIdentifier>{b8fc3328-05fb-4433-8f16-336fb970a9be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer\unix">
+      <UniqueIdentifier>{11b40a53-76a7-4e4d-b282-2a4c6330c4b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\android">
+      <UniqueIdentifier>{1ab251a5-2ef2-42ef-8990-af58deb5183a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\yuv2rgb">
+      <UniqueIdentifier>{3dabec92-2e97-4d84-b53b-a49751e0a3dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
